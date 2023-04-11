@@ -11,7 +11,9 @@
      value types to simplify analysis. More detail on the data preparation can be found in the accompanying 
      Jupyter notebook.   
     
-    A quick survey of the data reveals some simple trends within each cohort of responders.  For example, the following charts show that people with friends were more likely to participate, and that participation was greater on sunny days.
+    A quick survey of the data reveals some simple trends within each cohort of responders.  For example, 
+    the following charts show that people with friends were more likely to participate, and that participation 
+    was greater on sunny days.
 
 ![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/passenger.png)
 
