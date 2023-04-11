@@ -3,7 +3,14 @@
      and cohort attributes that drive engagement, i.e. the acceptance of a coupon.  In this exercise, 
      we will strategically design new coupon campaign to drive participation rates well above the 
      broader group mean of 56%.
-     For context, the data includes just over 12 thousand survey results, which each include details on the whether a coupon was accepted, weather during each engagement, the target destination, time of day, and various driver attributes including income, occupation and dining habits.  All of the data was reviewed to weed out incomplete survey results and to ensure distributions of the results are sensibly distributed.  Null values were removed, and two variables were converted to numeric value types to simplify analysis. More detail on the data preparation can be found in the accompanying Jupyter notebook.   
+     For context, the data includes just over 12 thousand survey results, which each include details 
+     on the whether a coupon was accepted, weather during each engagement, the target destination, time 
+     of day, and various driver attributes including income, occupation and dining habits.  All of the 
+     data was reviewed to weed out incomplete survey results and to ensure distributions of the results 
+     are sensibly distributed.  Null values were removed, and two variables were converted to numeric 
+     value types to simplify analysis. More detail on the data preparation can be found in the accompanying 
+     Jupyter notebook.   
+    
     A quick survey of the data reveals some simple trends within each cohort of responders.  For example, the following charts show that people with friends were more likely to participate, and that participation was greater on sunny days.
 
 ![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/passenger.png)
