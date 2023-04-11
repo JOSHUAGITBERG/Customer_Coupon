@@ -1,6 +1,0 @@
-#!/bin/bash
-
-git add .
-git commit -M '   '
-git branch -M main
-git push -u origin main
