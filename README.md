@@ -45,7 +45,9 @@
 
     The above chart shows that we can strategically stack cohorts to generate highly engaged coupon 
     campaigns.  In this example, we might create an ad campaign that texts healthcare workers likely 
-    to have friends during the afternoon.   
+    to have friends during the afternoon. We can extend this methodology to other cohorts that 
+    demonstrate engagement opportunistically based on available targeting capabilities and relevant 
+    business drivers.     
 
 
 
