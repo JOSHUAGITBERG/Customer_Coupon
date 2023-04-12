@@ -12,7 +12,7 @@
      value types to simplify analysis. More detail on the data preparation can be found in the 
      accompanying Jupyter notebook, located at 
 
-     https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/Coupon_Engagement_Analysis.ipynb.   
+     https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/Coupon_Engagement_Analysis.ipynb   
     
      A quick survey of the data reveals some simple trends within each cohort of responders.  
      For example, the following charts show that people with friends were more likely to 
