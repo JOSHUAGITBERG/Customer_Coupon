@@ -4,19 +4,22 @@
      we will strategically design new coupon campaign to drive participation rates well above the 
      broader group mean of 56%.
      
-         For context, the data includes just over 12 thousand survey results, which each include details 
+         For context, the data includes over 12 thousand survey results, which each include details 
      on the whether a coupon was accepted, weather during each engagement, the target destination, time 
      of day, and various driver attributes including income, occupation and dining habits.  All of the 
      data was reviewed to weed out incomplete survey results and to ensure distributions of the results 
      are sensibly distributed.  Null values were removed, and two variables were converted to numeric 
-     value types to simplify analysis. More detail on the data preparation can be found in the accompanying 
-     Jupyter notebook.   
-    
-        A quick survey of the data reveals some simple trends within each cohort of responders.  For example, 
-    the following charts show that people with friends were more likely to participate, and that participation 
-    was greater on sunny days.
+     value types to simplify analysis. More detail on the data preparation can be found in the 
+     accompanying Jupyter notebook, located at 
 
-![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/passenger.png)
+     https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/Coupon_Engagement_Analysis.ipynb.   
+    
+     A quick survey of the data reveals some simple trends within each cohort of responders.  
+     For example, the following charts show that people with friends were more likely to 
+     accept a coupon relative to drivers with children. Similarly, drivers were more likely to
+     accept a coupon on sunny dates.  
+
+![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/weather_passenger.png))
 
 The most popular coupon type is “Carry Out and Take Away”, which were accepted at a rate of 73%.
 
@@ -26,15 +29,23 @@ Coupons distributed between 2PM and 6PM are the mostly likely to be accepted:
 
 ![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/time.png)
 
-What other attributes can we leverage to drive up acceptance? If we isolate acceptance by occupation, we can see that healthcare workers represent two of the top three cohorts.  Combined, they accepted 70% of their coupons.  
+What other attributes can we leverage to drive up acceptance? 
+
+If we isolate acceptance by occupation, we can see that healthcare workers represent 
+two of the top three cohorts.  Combined, they accepted 70% of their coupons.  
 
 ![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/occupation.png)
 
-We already showed that drivers with a Friend are more likely to engage, and that the the peak time for coupon acceptance is 2-6PM.  If we isolate healthcare workers traveling with a friend between 2-6PM, the engagement shoots to 93%.   
+We already showed that drivers with a Friend are more likely to engage, and that the the peak 
+time for coupon acceptance is 2-6PM.  If we isolate healthcare workers traveling with a friend 
+between 2-6PM, the engagement shoots to 93%. See the chart below to see the effect of this 
+stacking strategy.  
 
 ![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/summary.png)
 
-The above exercise shows that we can strategically stack cohorts to generate highly successful coupon campaigns.  In this example, we might create an ad campaign that texts healthcare workers during the afternoon.   
+The above chart shows that we can strategically stack cohorts to generate highly engaged coupon 
+campaigns.  In this example, we might create an ad campaign that texts healthcare workers likely 
+to have friends during the afternoon.   
 
 
 
