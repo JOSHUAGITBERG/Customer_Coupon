@@ -1,13 +1,13 @@
           UCI Machine Learning provided survey data to describe driving scenarios where participating 
      drivers were offered a coupon.  We can analyze relationships within the data to infer conditions 
      and cohort attributes that drive engagement, i.e. the acceptance of a coupon.  In this exercise, 
-     we will strategically design new coupon campaign to drive participation rates well above the 
+     we will strategically design a new coupon campaign to drive participation rates well above the 
      broader group mean of 56%.
      
          For context, the data includes over 12 thousand survey results, which each include details 
      on the whether a coupon was accepted, weather during each engagement, the target destination, time 
      of day, and various driver attributes including income, occupation and dining habits.  All of the 
-     data was reviewed to eliminate incomplete survey results and to ensure sensible distributions of 
+     data was reviewed to eliminate incomplete surveys and to ensure sensible distributions of 
      the results. Specifically, null values were removed, and two variables were converted to numeric 
      value types to simplify analysis. More detail on the data preparation can be found in the 
      accompanying Jupyter notebook, located at 
@@ -36,7 +36,7 @@
 
 ![alt text](https://github.com/JOSHUAGITBERG/Customer_Coupon/blob/main/images/occupation.png)
 
-     We already showed that drivers with a Friend are more likely to engage, and that the the peak 
+     We already showed that drivers with a Friend are more likely to engage, and that the peak 
      time for coupon acceptance is 2-6PM.  If we isolate healthcare workers traveling with a friend 
      between 2-6PM, the engagement shoots to 93%. See the chart below to see the effect of this 
      stacking strategy.  
@@ -46,8 +46,8 @@
     The above chart shows that we can strategically stack cohorts to generate highly engaged coupon 
     campaigns.  In this example, we might create an ad campaign that texts healthcare workers likely 
     to have friends during the afternoon. We can extend this methodology to other cohorts that 
-    demonstrate engagement opportunistically based on available targeting capabilities and relevant 
-    business drivers.     
+    demonstrate engagement based on available targeting capabilities and relevant 
+    business goals.     
 
 
 
